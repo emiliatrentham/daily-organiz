@@ -18,9 +18,15 @@
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
+    <button class="clearBtn" onClick="ClearHistory()">Clear History</button>
   </header>
   <main>
-    <div class="time-block" data-hour="6:30" >
+      <!-- Time Blocks Container -->
+      <div class="container">
+        <ul id="time-blocks-list">
+        </ul>
+      </div>
+    <!-- <div class="time-block" data-hour="6:30" >
       <div class="row">
         <div class="hour" class="col-sm"> 6:30 AM</div>
         <textarea class="col-sm description"></textarea>
@@ -62,7 +68,7 @@
         <textarea class="col-sm "></textarea>
         <button class="saveBtn" class="col-sm">save</button>
       </div>
-    </div>
+    </div> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./script.js"></script>
