@@ -4,7 +4,7 @@ var timeBlockHourKey = document.querySelector(".description");
 const currentDate = moment().format("dddd, MMMM Do"); // get current date
 document.getElementById("currentDay").textContent = currentDate; // display inside the element
 
-const now = moment().format("HH:mm A"); // figure out how to show am pm and how to compare times in moment
+const now = moment().hour(); // figure out how to show am pm and how to compare times in moment
 console.log(now);
 
 // The save button function that allows the user to save their notes
@@ -31,8 +31,7 @@ $(document).ready(function () {
     $(this).find("textarea").val(existingDescription); //chaining the result of a function to the front of another
     // console.log(timeBlockHourKey, now);
 
-    var updateTimeBlockTime = moment(timeBlockHourKey, "HH:mm A").format(
-      "HH:mm A"
+    var updateTimeBlockTime = moment(timeBlockHourKey, "HH:mm A").hour(
     );
     if (updateTimeBlockTime < now) {
       $(this).addClass("past");

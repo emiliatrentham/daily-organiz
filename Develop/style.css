@@ -54,14 +54,14 @@ textarea {
 }
 
 .present {
-  background-color: rgb(128, 0, 66);
+  background-color: rgb(173, 116, 229);
   color: white;
   margin-left: 150px;
   margin-right: 150px;
 }
 
 .future {
-  background-color: rgb(50, 201, 201);
+  background-color: rgb(71, 211, 211);
   color: white;
   margin-left: 150px;
   margin-right: 150px;
@@ -131,7 +131,6 @@ textarea {
     margin-left: 50px;
     margin-right: 50px;
   }
-
   /* 
   .saveBtn {
     margin-right: 0% !important;
