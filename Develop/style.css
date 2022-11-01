@@ -1,9 +1,11 @@
+/* Sets body display */
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
+/* Sets text area display */
 textarea {
   background: transparent;
   border: none;
@@ -13,6 +15,7 @@ textarea {
   padding: 10px;
 }
 
+/* Styles header */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -21,6 +24,7 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+/* Sets description class display */
 .description {
   white-space: pre-wrap;
 }
@@ -30,6 +34,7 @@ textarea {
   border-radius: 15px;
 }
 
+/* Styles each row */
 .row {
   white-space: pre-wrap;
   height: 80px;
@@ -37,6 +42,7 @@ textarea {
   border-radius: 25px;
 }
 
+/* Styles current hour display */
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -46,6 +52,7 @@ textarea {
   margin-left: 0%;
 }
 
+/* Styles past class */
 .past {
   background-color: #d3d3d3;
   color: white;
@@ -53,6 +60,7 @@ textarea {
   margin-right: 150px;
 }
 
+ /* Styles present class */
 .present {
   background-color: rgb(173, 116, 229);
   color: white;
@@ -60,6 +68,7 @@ textarea {
   margin-right: 150px;
 }
 
+/* Styles future class */
 .future {
   background-color: rgb(71, 211, 211);
   color: white;
@@ -67,6 +76,7 @@ textarea {
   margin-right: 150px;
 }
 
+/* Sets save button display */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -91,6 +101,7 @@ textarea {
   border: none;
 }
 
+/* Styles save button i:hover */
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
@@ -131,9 +142,4 @@ textarea {
     margin-left: 50px;
     margin-right: 50px;
   }
-  /* 
-  .saveBtn {
-    margin-right: 0% !important;
-    float: right;
-  } */
 }
