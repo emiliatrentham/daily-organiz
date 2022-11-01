@@ -119,27 +119,27 @@ textarea {
     flex-direction: column;
   }
 
-  .past,
-  .present,
-  .future {
+  .time-block{
     margin-left: 100px;
     margin-right: 100px;
   }
 }
 
-@media screen and (max-width: 504px) {
+@media screen and (max-width: 576px) {
   main,
   header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
-  .past,
-  .present,
-  .future {
-    margin-left: 50px;
-    margin-right: 50px;
+  .time-block {
+    margin: 0px;
+    padding: 0%;
+    max-width: 100%;
   }
+
 }
